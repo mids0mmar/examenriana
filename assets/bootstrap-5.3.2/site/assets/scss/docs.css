@@ -1085,7 +1085,6 @@
   margin-top: 0.125rem;
   margin-left: 1.125rem;
   color: var(--bs-body-color);
-  text-decoration: none;
 }
 .bd-links-link:hover, .bd-links-link:focus, .bd-links-link.active {
   color: var(--bs-emphasis-color);
@@ -2924,7 +2923,7 @@ main [tabindex="0"] {
 .anchor-link {
   padding: 0 0.175rem;
   font-weight: 400;
-  color: rgba(52, 162, 155, 0.5);
+  color: rgba(31, 29, 56, 0.5);
   text-decoration: none;
   opacity: 0;
   transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
@@ -2938,7 +2937,7 @@ main [tabindex="0"] {
   content: "#";
 }
 .anchor-link:focus, .anchor-link:hover, :hover > .anchor-link, :target > .anchor-link {
-  color: #34A29B;
+  color: rgb(31, 29, 56);
   text-decoration: none;
   opacity: 1;
 }/*# sourceMappingURL=docs.css.map */

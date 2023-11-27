@@ -311,7 +311,7 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 $primary:       $turquesa;
-$secondary:     $lila;
+$secondary:     $violeta;
 $success:       $turquesa !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -462,10 +462,10 @@ $body-emphasis-color:       $black !default;
 //
 // Style anchor elements.
 
-$link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-color:                              $violeta !default;
+$link-decoration:                         none !default;
 $link-shade-percentage:                   20% !default;
-$link-hover-color:                        $blanco-gris;
+$link-hover-color:                        $violeta-opaco !default;
 //$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;// //cambio//
 $link-hover-decoration:                   null !default;
 
@@ -703,7 +703,7 @@ $initialism-font-size:        $small-font-size !default;
 
 $blockquote-margin-y:         $spacer !default;
 $blockquote-font-size:        $font-size-base * 1.25 !default;
-$blockquote-footer-color:     $gray-600 !default;
+$blockquote-footer-color:     $lila !default;
 $blockquote-footer-font-size: $small-font-size !default;
 
 $hr-margin-y:                 $spacer !default;
@@ -1173,8 +1173,8 @@ $nav-link-padding-y:                .5rem !default;
 $nav-link-padding-x:                1rem !default;
 $nav-link-font-size:                null !default;
 $nav-link-font-weight:              null !default;
-$nav-link-color:                    var(--#{$prefix}link-color) !default;
-$nav-link-hover-color:              var(--#{$prefix}link-hover-color) !default;
+$nav-link-color:                    $violeta !default;
+$nav-link-hover-color:              $violeta-opaco !default;
 $nav-link-transition:               color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out !default;
 $nav-link-disabled-color:           var(--#{$prefix}secondary-color) !default;
 $nav-link-focus-box-shadow:         $focus-ring-box-shadow !default;
