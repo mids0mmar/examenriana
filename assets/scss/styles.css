@@ -12024,6 +12024,46 @@ textarea.form-control-lg {
   background-color: rgba(226, 226, 239, 0.53);
 }
 
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+.carousel-item img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.btn-banner {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  width: 240px;
+  height: 40px;
+  border-radius: 0;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);

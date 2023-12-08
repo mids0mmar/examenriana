@@ -73,6 +73,77 @@
 
 //fin header//
 
+//home //
+
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+  
+.carousel-item img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.37);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  
+.carousel-caption {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 1;
+    font-family: $fuente-montserrat;
+    font-weight: $font-weight-bold;
+}
+  
+
+.btn-banner{
+    font-family: $fuente-montserrat;
+    color: $blanco;
+    width: 240px;
+    height: 40px;
+    border-radius: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//dormitorio productos //
+
 .banner {
     position: relative;
     background-image: url(../img/productos/bannerproductos.png);
@@ -149,3 +220,6 @@ aside{
     font-size: 14px;
     font-weight: 500;
 }
+
+//fin productos//
+
