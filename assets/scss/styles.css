@@ -12067,4 +12067,65 @@ aside {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+
+.btn-tamano {
+  color: #34A29B;
+  border: 1px solid #34A29B;
+  font-family: "Roboto Slab", serif;
+  padding: 5px 10px;
+}
+
+.btn-tamano:hover {
+  color: #fff;
+  background-color: #34A29B;
+}
+
+.fa-solid {
+  z-index: 1;
+  position: relative;
+}
+
+.opacity {
+  opacity: 0;
+  z-index: 2;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}
+
+label {
+  font-family: "Roboto Slab", serif;
+}
+
+input[type=number] {
+  font-family: "Roboto Slab", serif;
+  border: 0;
+  border-bottom: 2px solid #000;
+  width: 50px;
+  padding: 0px 0px 0px 5px;
+  background-color: transparent;
+}
+
+input[type=number]:focus {
+  outline: none;
+}
+
+.plazas {
+  width: 300px;
+}
+
+.padding1 {
+  padding: 10px 40px;
+}
+
+.padding2 {
+  padding: 10px 150px;
 }/*# sourceMappingURL=styles.css.map */
