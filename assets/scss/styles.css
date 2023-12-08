@@ -12147,4 +12147,17 @@ input[type=number]:focus {
 
 .padding2 {
   padding: 10px 150px;
+}
+
+.enlace1 {
+  font-family: "Roboto Slab", serif;
+}
+
+.enlace1:hover {
+  color: #34A29B;
+}
+
+.linea {
+  border-top: 2px solid #34A29B;
+  width: 290px;
 }/*# sourceMappingURL=styles.css.map */

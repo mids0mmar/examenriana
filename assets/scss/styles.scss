@@ -209,4 +209,16 @@ input[type="number"]:focus{
 .padding2{
     padding: 10px 150px;
 }
+.enlace1{
+    font-family: $fuente-robotoslab;
+}
+
+.enlace1:hover{
+    color: $turquesa;
+}
+
+.linea{
+    border-top: 2px solid $turquesa;
+    width: 290px;
+}
 
