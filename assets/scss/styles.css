@@ -12064,6 +12064,46 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 
+.col-sm-6.img-sillon {
+  width: 500px;
+  height: 357px;
+}
+
+.botones-aproductos {
+  position: relative;
+  overflow: hidden;
+}
+.botones-aproductos a.btn h4, .botones-aproductos a.btn .h4 {
+  position: absolute;
+  bottom: 14px;
+  right: 78px;
+  margin: 0;
+  color: #fff;
+}
+
+.container-fluid.separacion, .separacion.container-sm, .separacion.container-md, .separacion.container-lg, .separacion.container-xl, .separacion.container-xxl {
+  background-image: url(../img/home/separacion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+}
+
+.separacion-item {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.separacion-item p {
+  font-family: "Roboto Slab", serif;
+  color: rgb(31, 29, 56);
+}
+
+.separacion-item svg {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
@@ -12125,81 +12165,6 @@ aside {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-}
-
-/* HEAD >>>>>>>>>>>>>>>>>>>> */
-.btn-tamano {
-  color: #34A29B;
-  border: 1px solid #34A29B;
-  font-family: "Roboto Slab", serif;
-  padding: 5px 10px;
-}
-
-.btn-tamano:hover {
-  color: #fff;
-  background-color: #34A29B;
-}
-
-.fa-solid {
-  z-index: 1;
-  position: relative;
-}
-
-.opacity {
-  opacity: 0;
-  z-index: 2;
-  position: absolute;
-  margin-top: 5px;
-}
-
-.opacity:hover {
-  opacity: 1;
-}
-
-p {
-  font-family: "Roboto Slab", serif;
-}
-
-label {
-  font-family: "Roboto Slab", serif;
-}
-
-input[type=number] {
-  font-family: "Roboto Slab", serif;
-  border: 0;
-  border-bottom: 2px solid #000;
-  width: 50px;
-  padding: 0px 0px 0px 5px;
-  background-color: transparent;
-}
-
-input[type=number]:focus {
-  outline: none;
-}
-
-.plazas {
-  width: 300px;
-}
-
-.padding1 {
-  padding: 10px 40px;
-}
-
-.padding2 {
-  padding: 10px 150px;
-}
-
-.enlace1 {
-  font-family: "Roboto Slab", serif;
-}
-
-.enlace1:hover {
-  color: #34A29B;
-}
-
-.linea {
-  border-top: 2px solid #34A29B;
-  width: 290px;
 }
 
 .tab-pane {
