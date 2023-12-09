@@ -12109,6 +12109,14 @@ textarea.form-control-lg {
   height: 242px;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
