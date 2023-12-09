@@ -12117,6 +12117,28 @@ p {
   font-family: "Roboto Slab", serif;
 }
 
+.banner-nosotros {
+  position: relative;
+  background-image: url(../img/nosotros/banner-nosotros.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 385px;
+}
+.banner-nosotros::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.banner-nosotrosdentro {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
