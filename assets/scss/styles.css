@@ -12184,4 +12184,59 @@ input[type=number]:focus {
 
 .margin {
   margin-left: 100px;
+}
+
+.seccion {
+  display: none;
+}
+
+.opcion {
+  display: none;
+}
+
+.correo {
+  background-color: rgba(226, 226, 239, 0.53);
+  color: #000;
+  border: 0;
+  width: 500px;
+  height: 40px;
+}
+
+.nombre {
+  background-color: rgba(226, 226, 239, 0.53);
+  color: #000;
+  border: 0;
+  width: 250px;
+  height: 30px;
+}
+
+.retiro-fondo {
+  background-color: rgba(226, 226, 239, 0.53);
+  color: #000;
+  border: 0;
+  width: 500px;
+  height: 150px;
+  padding: 10px;
+}
+
+.mercado {
+  background-color: rgba(226, 226, 239, 0.53);
+  color: #000;
+  border: 0;
+  width: 300px;
+  height: 50px;
+  padding: 10px 50px;
+}
+
+.texto-pagar {
+  background-color: rgba(226, 226, 239, 0.53);
+  color: #000;
+  border: 0;
+  width: 400px;
+  height: 100px;
+  padding: 10px 20px;
+}
+
+.borde {
+  border-right: 1px solid #34A29B;
 }/*# sourceMappingURL=styles.css.map */
