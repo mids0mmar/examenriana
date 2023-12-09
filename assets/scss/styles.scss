@@ -303,3 +303,25 @@ input[type="number"]:focus{
 }
 >>>>>>> 758f5a463025194984abcf667c012f21f7f27f17
 
+.tab-pane{
+    background-color: $lila-opaco;
+    width: 700px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.link-gris{
+    color: #9a9a9a;
+}
+.link-gris:hover{
+    color: #000;
+}
+.link-gris:focus{
+    color: #000;
+    
+}
+
+.margin{
+    margin-left: 100px;
+}

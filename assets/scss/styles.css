@@ -12200,4 +12200,28 @@ input[type=number]:focus {
 .linea {
   border-top: 2px solid #34A29B;
   width: 290px;
+}
+
+.tab-pane {
+  background-color: rgba(226, 226, 239, 0.53);
+  width: 700px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.link-gris {
+  color: #9a9a9a;
+}
+
+.link-gris:hover {
+  color: #000;
+}
+
+.link-gris:focus {
+  color: #000;
+}
+
+.margin {
+  margin-left: 100px;
 }/*# sourceMappingURL=styles.css.map */
