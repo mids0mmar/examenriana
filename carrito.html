@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cubrecama m</title>
-    <script src="https://kit.fontawesome.com/ac84549815.js" crossorigin="anonymous"></script>
+    <title>Carrito</title>
     <link rel="stylesheet" href="assets/scss/styles.css">
 </head>
 <body>
@@ -58,123 +57,176 @@
             </div>
         </nav>
     </header>
- <main class="mt-5 mb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <img src="assets/img/cobertor.png" alt="">
-            </div>
-            <div class="col-md-7">
-                <h2 class="mb-3">Cobertor con círculos <br> multicolor</h2>
-                <p class="mb-3"><strong>$25.990 CLP</strong></p>
-               
-                
-                <div class="d-flex mb-3">
-                    <div class="mb-2 me-5">
-                        <p><strong>Color</strong></p>
-                        <a href="#" class="btn-color"><i class="fa-regular fa-circle opacity" style="color: #000000;"></i><i class="fa-solid fa-circle" style="color: #6b85c9;"></i></a>
-                        <a href="#"><i class="fa-regular fa-circle opacity" style="color: #000000;"></i><i class="fa-solid fa-circle" style="color: #dc8a6a;"></i></a>
-                        <a href="#"><i class="fa-regular fa-circle opacity" style="color: orange;"></i><i class="fa-solid fa-circle" style="color: #5a3b46;"></i></a>   
-                    </div> 
-                    <div>
-                      <p><strong>Tamaño</strong></p>
-                    <div class="mb-2 d-flex flex-wrap plazas">
-                        <a href="#" class="btn-tamano me-2">1 plaza</a>
-                        <a href="#" class="btn-tamano me-2">2 plazas</a>
-                        <a href="#" class="btn-tamano me-2">2.5 plazas</a>
-                        <a href="#" class="btn-tamano me-2 mt-2">3 plazas</a>
-                        <a href="#" class="btn-tamano mt-2">King</a>
-                    </div>  
-                    </div>
-                    
-                </div>
-                <div class="d-flex mb-5">
-                   <div class="mb-2 me-5">
-                   <label for="numero"><strong>Cantidad</strong>
-                    <input type="number" id="numero" min="1"></label>  
-                </div>
-                <a href="#" class="btn btn-primary texto-blanco padding1">Agregar al carrito</a>  
-                </div>
-               
-                <a href="carrito.html" class="btn btn-primary texto-blanco padding2">Comprar ahora</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5">
-                <a href="#" class="enlace1">Hacer una pregunta</a>
-                <a href="#" class="ms-5 enlace1">Compartir</a>
-                <div class="linea mt-2"></div>
-            </div>
-            <div class="col-md-7">
+<main>
 
-            </div>
-        </div>
 
-        <div class="row d-flex justify-content-center mt-5">
-          <nav class="col-md-3 col-lg-4 d-md-block sidebar">
-            <div class="position-sticky ">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link item link-gris active" id="item1-tab" data-bs-toggle="tab" href="#item1" role="tab" aria-controls="item1" aria-selected="true"> Información del producto </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link item link-gris" id="item2-tab" data-bs-toggle="tab" href="#item2" role="tab" aria-controls="item2" aria-selected="false"> Envíos y devoluciones</a>
-                    </li>
-                </ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 borde">
+            <h1 class="mt-5 mb-3">Contacto</h1>
+            <div class="d-flex justify-content-end mb-4">
+                <p class="d-inline"><strong>¿Tienes una cuenta?</strong></p><a href="#" class="enlace1 d-inline ms-3">Iniciar sesión</a>   
             </div>
-          </nav>
-            <div class="col-md-9">
-                <div class="tab-content margin" id="myTabContent">
-                    <div class="tab-pane fade show active" id="item1" role="tabpanel" aria-labelledby="item1-tab">
-                        <p>Este producto es fabricado a mano y es 100% algodón, con relleno sintetico.</p>
-                        <p>Pensado para tu comodidad.</p>
-                    </div>
-                    <div class="tab-pane fade" id="item2" role="tabpanel" aria-labelledby="item2-tab">
-                      <p>Se hacen envíos a todo Chile vía Starken por pagar.</p>
-                      <p>Hacemos el 50% de devolución si tu producto no fue lo que esperabas.</p>
-                  </div>
+            <form action="post">
+            <input type="text" placeholder="Correo electrónico" class="d-block correo mb-2">
+            <label for="novedades">
+                <input type="checkbox" id="novedades">
+                Enviarme novedades y ofertas por correo electrónico.
+            </label>
+            <div class="mt-4">
+            <h2>Entrega</h2> 
+            <label for="retiro">
+                <input type="radio" id="retiro" value="retiro" checked name="opcion" onclick="mostrarSeccion('seccion1')">
+                Retiro
+            </label>
+            <label for="envio">
+                <input type="radio" id="envio" value="envio" name="opcion" onclick="mostrarSeccion('seccion2')">
+                Envío
+            </label>    
+            </div>
+            <div id="seccion1" class="seccion mt-4 mb-4">
+              <input type="text" placeholder="Nombre" class="nombre me-2 mb-3">
+              <input type="text" placeholder="Apellido" class="nombre mb-3">
+              <input type="text" placeholder="Dirección" class="correo d-block mb-3">
+              <input type="text" placeholder="Casa, apartamento, etc (opcional)" class="correo d-block mb-3">
+              <input type="text" placeholder="Rut sin guión" class="nombre me-2 mb-3">
+              <input type="text" placeholder="Comuna" class="nombre mb-3">
+              <select name="region" id="region" class="correo d-block mb-3">
+                <option value="arica">Arica y Parinacota</option>
+                <option value="tarapaca">Tarapacá</option>
+                <option value="antofagasta">Antofagasta</option>
+                <option value="atacama">Atacama</option>
+                <option value="coquimbo">Coquimbo</option>
+                <option value="valparaiso">Valparaíso</option>
+                <option value="metropolitana">Metropolitana</option>
+                <option value="libertador">Libertador Bernardo O'Higgins</option>
+                <option value="maule">Maule</option>
+                <option value="ñuble">Ñuble</option>
+                <option value="biobio">BioBío</option>
+                <option value="araucania">Araucanía</option>
+                <option value="rios">Los Ríos</option>
+                <option value="lagos">Los Lagos</option>
+                <option value="aysen">Aysén</option>
+                <option value="magallanes">Magallanes</option>
+              </select>
+              <input type="text" placeholder="Teléfono" class="nombre">
+            </div>
+            <div id="seccion2" class="seccion mt-4 mb-4">
+                <p><strong>Lugares de retiro</strong></p>
+                <p><strong>Hay 1 tienda cerca de tu ubicación.</strong></p>
+                <div class="retiro-fondo">
+                 <p>Retiro en Santa María local</p>
+                 <p>Sta. María 327, 2820000 Rancagua, O'Higgins.</p>
+                 <p><strong>Gratis</strong></p>   
                 </div>   
             </div>
+            <script>
+                function mostrarSeccion(idSeccion) {
+                    // Ocultar todas las secciones
+                    var secciones = document.querySelectorAll('.seccion');
+                    secciones.forEach(function(seccion) {
+                        seccion.style.display = 'none';
+                    });
+        
+                    // Mostrar la sección correspondiente a la opción seleccionada
+                    var seccionMostrar = document.getElementById(idSeccion);
+                    seccionMostrar.style.display = 'block';
+                }
+            </script>
+            <h2 class="mb-3 mt-4">Pago</h2>
+            <p>Todas las transacciones son seguras y están encriptadas</p>
+            <span class="mercado d-block">Checkout mercado pago</span>
+            <p class="texto-pagar mt-3"><strong>Luego de hacer clic en “pagar ahora”, serás <br> redirigido a checkout mercado pago para <br> completar tu compra de forma segura.</strong></p>
+
+            <h2 class="mt-4 mb-3">Dirección de facturación</h2>
+            <label for="misma">
+                <input type="radio" name="opcion2" id="misma" value="misma" checked onclick="mostrarRadio('opcion1')" class="mb-5">
+                La misma dirección de envío
+            </label>
+            <label for="facturacion">
+                <input type="radio" name="opcion2" id="facturacion" value="facturacion" onclick="mostrarRadio('opcion2')" class="mb-5">
+                Usar una dirección de facturación distinta
+            </label>
+            <div id="opcion1" class="opcion"></div>
+            <div id="opcion2" class="opcion mb-5">
+                <input type="text" placeholder="Nombre" class="nombre me-2 mb-3">
+              <input type="text" placeholder="Apellido" class="nombre mb-3">
+              <input type="text" placeholder="Dirección" class="correo d-block mb-3">
+              <input type="text" placeholder="Casa, apartamento, etc (opcional)" class="correo d-block mb-3">
+              <input type="text" placeholder="Rut sin guión" class="nombre me-2 mb-3">
+              <input type="text" placeholder="Comuna" class="nombre mb-3">
+              <select name="region" id="region" class="correo d-block mb-3">
+                <option value="arica">Arica y Parinacota</option>
+                <option value="tarapaca">Tarapacá</option>
+                <option value="antofagasta">Antofagasta</option>
+                <option value="atacama">Atacama</option>
+                <option value="coquimbo">Coquimbo</option>
+                <option value="valparaiso">Valparaíso</option>
+                <option value="metropolitana">Metropolitana</option>
+                <option value="libertador">Libertador Bernardo O'Higgins</option>
+                <option value="maule">Maule</option>
+                <option value="ñuble">Ñuble</option>
+                <option value="biobio">BioBío</option>
+                <option value="araucania">Araucanía</option>
+                <option value="rios">Los Ríos</option>
+                <option value="lagos">Los Lagos</option>
+                <option value="aysen">Aysén</option>
+                <option value="magallanes">Magallanes</option>
+              </select>
+              <input type="text" placeholder="Teléfono" class="nombre mb-3">
+                <label for="box">
+                    <input type="checkbox" id="box">
+                    Guardar mi información y consultar más rápidamente la próxima vez
+                </label>  
+            </div>
+            <script>
+                function mostrarRadio(idSeccion) {
+                    // Ocultar todas las secciones
+                    var secciones = document.querySelectorAll('.opcion');
+                    secciones.forEach(function(opcion) {
+                        opcion.style.display = 'none';
+                    });
+        
+                    // Mostrar la sección correspondiente a la opción seleccionada
+                    var seccionRadio = document.getElementById(idSeccion);
+                    seccionRadio.style.display = 'block';
+                }
+            </script>
+            </form>
+            <a href="#" class="btn btn-primary texto-blanco padding2 mb-5">Pagar ahora</a>
         </div>
-          <div class="row mt-5">
-            <h3 class="mb-5">También te puede interesar</h3>
-            <div class="col-md-4">  
-              <div class="card" style="width: 18rem;">
-                <a href="producto-especifico.html"><img src="assets/img/cojines2.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text">Riana hogar</p>
-                  <h5 class="card-title">Cojines cafés</h5>
-                  <p class="card-text">$10.990</p>
-                  <a href="#" class="btn btn-primary texto-blanco">Agregar al carrito</a>
-                </div>
-              </div>
+        <div class="col-md-6">
+            <div class="d-flex mt-5">
+              <img src="assets/img/cobertor-peque.png" alt="" class="me-5">
+            <p class="me-5">Cobertor con círculos multicolor <br> Azul, King</p>
+            <p class="me-5"><strong>$25.990 CLP</strong></p>  
             </div>
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <a href="producto-especifico.html"><img src="assets/img/cortina2.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text">Riana hogar</p>
-                  <h5 class="card-title">Cortinas rosadas</h5>
-                  <p class="card-text">$6.990</p>
-                  <a href="#" class="btn btn-primary texto-blanco">Agregar al carrito</a>
-                </div>
-              </div>
+            <div class="mt-5">
+               <div class="d-flex justify-content-between">
+                <p><strong>Subtotal:</strong></p>
+                <p><strong>$25.990 CLP</strong></p>
             </div>
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <a href="producto-especifico.html"><img src="assets/img/alfombra2.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text">Riana hogar</p>
-                  <h5 class="card-title">Alfombra de colores</h5>
-                  <p class="card-text">$18.990</p>
-                  <a href="#" class="btn btn-primary texto-blanco">Agregar al carrito</a>
-                </div>
-              </div>
+
+            <div class="d-flex justify-content-between">
+                <p><strong>Envío:</strong></p>
+                <p><strong>$0 CLP</strong></p>
             </div>
-          </div>
-  </div>
- </main>
- <footer>
+
+            <div class="d-flex justify-content-between">
+                <p><strong>Total:</strong></p>
+                <p><strong>$25.990 CLP</strong></p>
+            </div> 
+            <a href="index.html" class="btn btn-primary texto-blanco padding2 mt-5">Seguir comprando</a>
+            </div>
+             
+
+            
+        </div>
+    </div>
+</div>
+</main>
+<footer>
     <div class="container-fluid">
       <div class="row pb-5 pt-5">
         <div class="col-md-3">
@@ -254,6 +306,5 @@
     </div>
    
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>                                               
 </body>
 </html>
