@@ -12104,6 +12104,11 @@ textarea.form-control-lg {
   margin-left: 30px;
 }
 
+.img-planta {
+  width: 170px;
+  height: 242px;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
