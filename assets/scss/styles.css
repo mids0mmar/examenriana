@@ -12173,6 +12173,27 @@ p {
   display: block;
 }
 
+.banner-navidad {
+  position: relative;
+  background-image: url(../img/banner-especial.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 430px;
+}
+
+.texto-navidad {
+  color: #fff;
+  font-weight: bold;
+}
+
+.texto-alineado {
+  text-align: center;
+}
+
+.width1 {
+  width: 365px;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
