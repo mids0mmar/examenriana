@@ -101,14 +101,55 @@
         </div>
         <div class="row">
             <div class="col-md-5">
-                <a href="#" class="enlace1">Hacer una pregunta</a>
+                <a href="#exampleModal" class="enlace1" data-bs-toggle="modal" data-bs-target="#exampleModal"">Hacer una pregunta</a>
+                
                 <a href="#" class="ms-5 enlace1">Compartir</a>
                 <div class="linea mt-2"></div>
             </div>
             <div class="col-md-7">
 
             </div>
-        </div>
+          </div>
+
+
+
+          <div class="modal fade" id="exampleModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5">Pregunta</h2>
+                  <a href="producto-especifico.html" class="btn-close" aria-label="Close"></a>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Te llamas:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Teléfono:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Correo electrónico:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                  
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Mensaje:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
         <div class="row d-flex justify-content-center mt-5">
           <nav class="col-md-3 col-lg-4 d-md-block sidebar">
@@ -122,7 +163,11 @@
                     </li>
                 </ul>
             </div>
+
           </nav>
+
+
+
             <div class="col-md-9">
                 <div class="tab-content margin" id="myTabContent">
                     <div class="tab-pane fade show active" id="item1" role="tabpanel" aria-labelledby="item1-tab">

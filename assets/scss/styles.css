@@ -12164,6 +12164,15 @@ p {
   z-index: 1;
 }
 
+.modal {
+  display: none;
+}
+
+/* Estilo para mostrar el modal cuando se activa por :target */
+#exampleModal:target {
+  display: block;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);

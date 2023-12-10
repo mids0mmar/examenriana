@@ -231,6 +231,15 @@ p {
     }
 }
 
+.modal {
+    display: none;
+  }
+  
+  /* Estilo para mostrar el modal cuando se activa por :target */
+  #exampleModal:target {
+    display: block;
+}
+
 
 
 
