@@ -8,56 +8,110 @@
     <link rel="stylesheet" href="assets/scss/styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar bg-body-tertiary navegadortop">
-            <div class="container-fluid p-0 navtop">
-              <div class="grupo-busqueda">
-                <form class="d-flex busqueda" role="search">
-                <input class="form-control me-2" type="search" placeholder="Escribe aquí..." aria-label="Search">
-                <button class="btn btn-outline-success buscar" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M10.4587 0.0309255C4.6915 0.0309255 0 4.88624 0 10.8549C0 16.8235 4.6915 21.6788 10.4587 21.6788C12.2218 21.6788 13.955 21.2458 15.4192 20.4109C15.5365 20.5569 15.6665 20.6915 15.8076 20.8129L18.7959 23.9054C19.0718 24.2268 19.4083 24.4863 19.7846 24.6682C20.161 24.8501 20.5693 24.9504 20.9845 24.9631C21.3997 24.9757 21.813 24.9004 22.199 24.7417C22.5851 24.5831 22.9357 24.3445 23.2294 24.0405C23.5231 23.7365 23.7537 23.3737 23.907 22.9741C24.0603 22.5746 24.133 22.1469 24.1208 21.7172C24.1086 21.2875 24.0116 20.8649 23.8359 20.4754C23.6602 20.0859 23.4094 19.7377 23.0989 19.4522L20.1107 16.3596C19.9651 16.2089 19.8049 16.0742 19.6326 15.9576C20.4394 14.4422 20.9474 12.6795 20.9474 10.8239C20.9474 4.85531 16.2559 0 10.4886 0L10.4587 0.0309255ZM10.4587 3.12348C14.6124 3.12348 17.9293 6.55621 17.9293 10.8549C17.9293 12.896 17.2121 14.7824 15.9571 16.1741C15.9272 16.205 15.8973 16.2359 15.8674 16.2668C15.7263 16.3882 15.5962 16.5228 15.4789 16.6689C14.1641 17.9059 12.3712 18.6172 10.4289 18.6172C6.27525 18.6172 2.95833 15.1844 2.95833 10.8858C2.95833 6.58714 6.27525 3.15441 10.4289 3.15441L10.4587 3.12348Z" fill="#34A29B"/></svg></button>
-              </form>
-              </div>
-              <div class="btn-group" role="group" aria-label="Basic outlined example">
-                <button type="button" class="btn btn-outline-primary btn-menu">Hola, inicia sesión</button>
-                <button type="button" class="btn btn-outline-primary btn-menu"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 37 32" fill="none"><path d="M18.1333 29.8412L3.76081 14.9654C2.36745 13.4799 1.5 11.5421 1.5 9.38416C1.5 7.17262 2.37197 5.24394 3.7463 3.81796C5.18136 2.3761 7.03026 1.5 9.06667 1.5C11.1483 1.5 12.9834 2.37527 14.3595 3.78955C15.0977 4.62002 15.7184 5.46846 16.1578 6.11595C16.3783 6.44104 16.5505 6.71153 16.6662 6.89829C16.7239 6.99157 16.7674 7.06371 16.7956 7.11101L16.8261 7.16279L16.8326 7.1738L16.8329 7.17442L16.8331 7.17469L16.8332 7.17492L16.8334 7.17526L16.8335 7.17543L18.1874 9.53039L19.4581 7.13029L19.4584 7.12984L19.4586 7.12934L19.4588 7.12912L19.4588 7.12903L19.459 7.12868L19.4644 7.11862C19.4701 7.10806 19.4797 7.09049 19.4931 7.06645C19.5197 7.01835 19.5613 6.94451 19.617 6.84923C19.7285 6.65836 19.8953 6.38319 20.1103 6.05772C20.5426 5.4032 21.1519 4.5725 21.8796 3.81804C23.3146 2.37614 25.1636 1.5 27.2 1.5C29.2884 1.5 31.1285 2.38091 32.5061 3.80322C33.8993 5.28866 34.7667 7.22637 34.7667 9.38416C34.7667 11.5995 33.8917 13.531 32.5133 14.9577L18.1333 29.8412Z" fill="#34A29B" stroke="#34A29B" stroke-width="3"/></svg></button>
-                <button type="button" class="btn btn-outline-primary btn-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 36 33" fill="none"><path d="M31.4008 10.358L33.9563 26.9686C34.3003 29.2046 32.5702 31.2211 30.3081 31.2211H5.69202C3.42972 31.2211 1.69971 29.2046 2.04372 26.9686L4.59917 10.358C4.87622 8.55733 6.17812 8.99999 8 8.99999L27.5 9C29.3218 9 31.1238 8.55733 31.4008 10.358Z" fill="#34A29B" stroke="#34A29B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 7.5C24 5.46139 21.5 1.5 18 1.5C14.5 1.5 12 5.46139 12 7.5" stroke="#34A29B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-              </div>
-            </div>
-        </nav>
+  <header>
+    <nav class="navbar bg-body-tertiary navegadortop">
+        <div class="container-fluid p-0 navtop">
+          <div class="grupo-busqueda">
+            <form class="d-flex busqueda" role="search">
+            <input class="form-control me-2" type="search" placeholder="Escribe aquí..." aria-label="Search">
+            <button class="btn btn-outline-success buscar" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M10.4587 0.0309255C4.6915 0.0309255 0 4.88624 0 10.8549C0 16.8235 4.6915 21.6788 10.4587 21.6788C12.2218 21.6788 13.955 21.2458 15.4192 20.4109C15.5365 20.5569 15.6665 20.6915 15.8076 20.8129L18.7959 23.9054C19.0718 24.2268 19.4083 24.4863 19.7846 24.6682C20.161 24.8501 20.5693 24.9504 20.9845 24.9631C21.3997 24.9757 21.813 24.9004 22.199 24.7417C22.5851 24.5831 22.9357 24.3445 23.2294 24.0405C23.5231 23.7365 23.7537 23.3737 23.907 22.9741C24.0603 22.5746 24.133 22.1469 24.1208 21.7172C24.1086 21.2875 24.0116 20.8649 23.8359 20.4754C23.6602 20.0859 23.4094 19.7377 23.0989 19.4522L20.1107 16.3596C19.9651 16.2089 19.8049 16.0742 19.6326 15.9576C20.4394 14.4422 20.9474 12.6795 20.9474 10.8239C20.9474 4.85531 16.2559 0 10.4886 0L10.4587 0.0309255ZM10.4587 3.12348C14.6124 3.12348 17.9293 6.55621 17.9293 10.8549C17.9293 12.896 17.2121 14.7824 15.9571 16.1741C15.9272 16.205 15.8973 16.2359 15.8674 16.2668C15.7263 16.3882 15.5962 16.5228 15.4789 16.6689C14.1641 17.9059 12.3712 18.6172 10.4289 18.6172C6.27525 18.6172 2.95833 15.1844 2.95833 10.8858C2.95833 6.58714 6.27525 3.15441 10.4289 3.15441L10.4587 3.12348Z" fill="#34A29B"/></svg></button>
+          </form>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary btn-menu">Hola, inicia sesión</button>
+            <button type="button" class="btn btn-outline-primary btn-menu"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 37 32" fill="none"><path d="M18.1333 29.8412L3.76081 14.9654C2.36745 13.4799 1.5 11.5421 1.5 9.38416C1.5 7.17262 2.37197 5.24394 3.7463 3.81796C5.18136 2.3761 7.03026 1.5 9.06667 1.5C11.1483 1.5 12.9834 2.37527 14.3595 3.78955C15.0977 4.62002 15.7184 5.46846 16.1578 6.11595C16.3783 6.44104 16.5505 6.71153 16.6662 6.89829C16.7239 6.99157 16.7674 7.06371 16.7956 7.11101L16.8261 7.16279L16.8326 7.1738L16.8329 7.17442L16.8331 7.17469L16.8332 7.17492L16.8334 7.17526L16.8335 7.17543L18.1874 9.53039L19.4581 7.13029L19.4584 7.12984L19.4586 7.12934L19.4588 7.12912L19.4588 7.12903L19.459 7.12868L19.4644 7.11862C19.4701 7.10806 19.4797 7.09049 19.4931 7.06645C19.5197 7.01835 19.5613 6.94451 19.617 6.84923C19.7285 6.65836 19.8953 6.38319 20.1103 6.05772C20.5426 5.4032 21.1519 4.5725 21.8796 3.81804C23.3146 2.37614 25.1636 1.5 27.2 1.5C29.2884 1.5 31.1285 2.38091 32.5061 3.80322C33.8993 5.28866 34.7667 7.22637 34.7667 9.38416C34.7667 11.5995 33.8917 13.531 32.5133 14.9577L18.1333 29.8412Z" fill="#34A29B" stroke="#34A29B" stroke-width="3"/></svg></button>
+            <button type="button" class="btn btn-outline-primary btn-menu" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 36 33" fill="none"><path d="M31.4008 10.358L33.9563 26.9686C34.3003 29.2046 32.5702 31.2211 30.3081 31.2211H5.69202C3.42972 31.2211 1.69971 29.2046 2.04372 26.9686L4.59917 10.358C4.87622 8.55733 6.17812 8.99999 8 8.99999L27.5 9C29.3218 9 31.1238 8.55733 31.4008 10.358Z" fill="#34A29B" stroke="#34A29B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 7.5C24 5.46139 21.5 1.5 18 1.5C14.5 1.5 12 5.46139 12 7.5" stroke="#34A29B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-lg navegadorbottom">
-            <div class="container-fluid navbottom">
-              <a class="navbar-brand p-0" href="#"><img class="iconoriana" src="assets/img/iconoriana.svg" alt="iconoriana"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
-                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Productos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Especiales</a></li>
-                      <li><a class="dropdown-item" href="#">Especiales</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Cubrecama</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true"></a>
-                  </li>
+    <nav class="navbar navbar-expand-lg navegadorbottom">
+        <div class="container-fluid navbottom">
+          <a class="navbar-brand p-0" href="home.html"><img class="iconoriana" src="assets/img/iconoriana.svg" alt="iconoriana"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+            <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Especiales</a></li>
+                  <li><a class="dropdown-item" href="#">Especiales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="productos.html">Cubrecama</a></li>
                 </ul>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5">Pregunta</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
             </div>
-        </nav>
-    </header>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Total</th>
+
+                      </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td class="w-25">
+                            <img src="assets/img/cobertor-peque.png" alt="">
+                          </td>
+
+                          <td>Cobertor pequeño</td>
+                          <td>$25.990</td>
+                          <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
+                          <td>$51.980</td>
+                          <td>
+                            <a href="#" class="btn btn-danger btn-sm">
+                              <i class="fa fa-times"></i>
+                            </a>
+                          </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-end">
+                    <h5>Total: <span class="price text-success">$51980</span></h5>
+                </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <a href="carrito.html" type="button" class="btn btn-primary">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</header>
+
+
  <main class="mt-5 mb-5">
     <div class="container">
         <div class="row">
