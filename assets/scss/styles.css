@@ -12212,7 +12212,6 @@ p {
   display: none;
 }
 
-/* Estilo para mostrar el modal cuando se activa por :target */
 #exampleModal:target {
   display: block;
 }
@@ -12223,6 +12222,15 @@ p {
 
 .mapa-gogle {
   box-shadow: 0px 0px 10px rgba(116, 128, 140, 0.13);
+}
+
+.mi-modal {
+  background-color: rgba(226, 226, 239, 0.53);
+}
+
+.modal-body {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
 }
 
 .banner-navidad {
