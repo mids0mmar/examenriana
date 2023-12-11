@@ -12327,6 +12327,35 @@ aside {
   font-weight: 600;
 }
 
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .fondo-filtro1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .font {
+    font-size: 18px;
+  }
+  .font2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .fondo-filtro1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .font {
+    font-size: 12px;
+  }
+  .font2 {
+    font-size: 8px;
+  }
+  aside {
+    margin: 0;
+  }
+}
 .padding1 {
   padding: 10px 30px;
 }
