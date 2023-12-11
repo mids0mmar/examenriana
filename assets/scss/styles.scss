@@ -128,8 +128,7 @@
 }
 
 .riana-sillon {
-    margin-top: 70px;
-    margin-bottom: 50px;
+
 
     h3 {
         margin-bottom: 40px;
@@ -209,22 +208,27 @@ h1, h2, h3, h4, h5 {
 p {
     font-family: $fuente-robotoslab;
 }
-
-.iconos-seccion{
+.iconos {
     margin-top: 150px;
     margin-bottom: 150px;
+}
+.iconos-seccion{
+    background-color: $lila-opaco;
+    background-size: cover;
+    height: 240px;
 }
 
 .iconoshop-container {
     width: 100px;
     height: 100px;
-    background-color: $lila-opaco;
+    background-color: $blanco-gris;
     border-radius: 50%;
     display: inline-block;
+
 }
 
 .final-home {
-    background-color: $lila-opaco;
+    padding-left: 115px;
 }
 
 
@@ -340,6 +344,10 @@ p {
     width: 365px;
 }
 
+.margin1{
+    margin-left: 230px;
+}
+
 
 
 
@@ -438,8 +446,66 @@ aside{
     font-weight: 500;
 }
 
+.fondo-filtro1{
+    background-color: #DEDEF4;
+}
+.font{
+    font-size: 24px;
+    font-weight: bold;
+}
+.font2{
+    font-size: 20px;
+    font-weight:600;
+}
 //fin productos//
 
+//producto especifico
+
+.padding1{
+    padding: 10px 30px;
+}
+.padding2{
+    padding: 10px 40px;
+}
+.enlace1:hover{
+    color: $turquesa;
+}
+
+input[type="number"]{
+    width: 50px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 3px solid $turquesa;
+}
+
+.btn-color{
+    position: relative;
+    z-index: 1;
+}
+.opacity{
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+
+.plazas{
+    width: 250px;
+}
+
+.btn-tamano{
+    color: $turquesa;
+    border: 2px solid $turquesa;
+    padding: 5px;
+}
+.btn-tamano:hover{
+    color: #fff;
+    background-color: $turquesa;
+}
 .tab-pane{
     background-color: $lila-opaco;
     width: 700px;
