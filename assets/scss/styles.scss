@@ -154,17 +154,21 @@ a.btn-vermas {
     height: 357px;
 }
 
-.botones-aproductos {
-    position: relative;
-    overflow: hidden;
 
-    a.btn h4 {
-    position: absolute;
-    bottom: 14px;
-    right: 78px;
-    margin: 0; 
-    color: #fff; 
-}
+.botones-aproductos {
+
+    position: relative;
+
+    a.btn {
+    position: relative;
+    }
+
+    h4 {
+        color: $blanco;
+        font-weight: 600;
+    }
+
+
 }
 
 .container-fluid.separacion {
@@ -203,6 +207,7 @@ a.btn-vermas {
 
 h1, h2, h3, h4, h5 {
     font-family: $fuente-montserrat;
+
 }
 
 p {
@@ -212,24 +217,32 @@ p {
     margin-top: 150px;
     margin-bottom: 150px;
 }
-.iconos-seccion{
-    background-color: $lila-opaco;
-    background-size: cover;
-    height: 240px;
+
+.icon-container {
+    width: 100px;
 }
 
 .iconoshop-container {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: $blanco-gris;
     border-radius: 50%;
     display: inline-block;
-
 }
 
-.final-home {
-    padding-left: 115px;
+.iconos-seccion {
+    background-color: $lila-opaco;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
 }
+
+
 
 
 //fin home//
@@ -385,28 +398,48 @@ p {
         z-index: 0;
     }
 
+
 }
 
-.col-3.botones {
-    width: 170px;
-    height: 170px;
-    display: grid;
-    place-items: center;
-    
-}
+.botones h2{
 
-.boton-banner {
-    display: inline-block;
-    position: relative;
-    border-radius: 80px 80px 80px 80px;
-    transition: background-color 0.3s ease;
-   
-    
+    color: $blanco;
+    padding: 10px;
+    font-size: 28px;
 }
   
-  .boton-banner:hover {
+.boton-banner{
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+    
+
+    svg:hover {
+    position: relative;
     background-color: $primary;
+    border-radius: 80px 80px 80px 80px;
+    transition: background-color 0.3s ease;
+    
   }
+}
+
+
+@media (max-width: 768px) {
+    .boton-banner {
+       
+        svg{
+        
+            width: 50px;
+            height: 50px;
+        }
+    }    
+}
+
+
+
+
 
 
 
@@ -457,6 +490,37 @@ aside{
     font-size: 20px;
     font-weight:600;
 }
+
+//responsive productos
+@media screen and (min-width: 601px) and (max-width: 1200px){
+    .fondo-filtro1{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .font{
+        font-size: 18px;
+    }
+    .font2{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .fondo-filtro1{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .font{
+        font-size: 12px;
+    }
+    .font2{
+        font-size: 8px;
+    }
+    aside{
+        margin: 0;
+    }
+ }   
 //fin productos//
 
 //producto especifico
