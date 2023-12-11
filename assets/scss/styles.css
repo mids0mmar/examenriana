@@ -12106,8 +12106,8 @@ a.btn-vermas {
 }
 
 .container-fluid.separacion, .separacion.container-sm, .separacion.container-md, .separacion.container-lg, .separacion.container-xl, .separacion.container-xxl {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-image: url(../img/home/separacion.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12184,7 +12184,7 @@ p {
 
 .nosotros-1 {
   background-color: rgba(226, 226, 239, 0.37);
-  height: 980px;
+  height: 480px;
   width: 1200px;
 }
 
@@ -12194,8 +12194,9 @@ p {
 .nosotros-dentro::before {
   content: "";
   position: absolute;
-  background-image: url(../img/nosotros/fondo-nosotros-linea.png);
+  background-image: url(../img/nosotros/vector-4.png);
   background-repeat: no-repeat;
+  background-position: bottom;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12214,6 +12215,27 @@ p {
 /* Estilo para mostrar el modal cuando se activa por :target */
 #exampleModal:target {
   display: block;
+}
+
+.donde-encontrarnos {
+  position: relative;
+  height: 340px;
+}
+.donde-encontrarnos::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/nosotros/flecha-curva-con-linea-discontinua1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.donde-encontrarnos > div {
+  position: relative;
+  z-index: 1;
 }
 
 .banner-navidad {
