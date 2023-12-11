@@ -12246,6 +12246,10 @@ p {
   width: 365px;
 }
 
+.margin1 {
+  margin-left: 230px;
+}
+
 .banner {
   position: relative;
   background-image: url(../img/productos/bannerproductos.png);
@@ -12307,6 +12311,70 @@ aside {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+
+.fondo-filtro1 {
+  background-color: #DEDEF4;
+}
+
+.font {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.font2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.padding1 {
+  padding: 10px 30px;
+}
+
+.padding2 {
+  padding: 10px 40px;
+}
+
+.enlace1:hover {
+  color: #34A29B;
+}
+
+input[type=number] {
+  width: 50px;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 3px solid #34A29B;
+}
+
+.btn-color {
+  position: relative;
+  z-index: 1;
+}
+
+.opacity {
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  margin-top: 5px;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
+
+.plazas {
+  width: 250px;
+}
+
+.btn-tamano {
+  color: #34A29B;
+  border: 2px solid #34A29B;
+  padding: 5px;
+}
+
+.btn-tamano:hover {
+  color: #fff;
+  background-color: #34A29B;
 }
 
 .tab-pane {
